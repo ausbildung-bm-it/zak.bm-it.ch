@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<HTML lang="de">
+
+<HEAD>
+<TITLE>zak.bm-it.ch</TITLE>
+<meta charset="UTF-8" />
+<link href="css/design.css" type="text/css" rel="stylesheet">
+
+<script>
+var elem =  document.getElementById("unentschlossen");
+elem.textContent = "Hello World!"; 
+elem.addEventListener("click",hello,false);
+
+function hello(wie) { 
+    elem.textContent = "Hello World!"; 
+	}
+function ändereKlasse(wie) {
+	var elem = document.getElementById("unentschlossen");
+	elem.className = wie;
+}
+
+</script>
+</HEAD>
+
+<BODY>
+<main id="main" role="main">
+
+	<h2>Wie soll ich aussehen?</h2>
+	<button onclick="hello('heis');">Klinweis</button>
+	<button onclick="ändereKlasse('hinweis');">Hinweis</button>
+	<button onclick="ändereKlasse('empfehlung');">Empfehlung</button>
+	<button onclick="ändereKlasse('aside');">noch mal anders</button>
+	<div id="unentschlossen">
+		<h2>Überschrift</h2>
+		<p>Dieser div-Container wird individuell gestaltet</p>
+	</div>
+	<div id="testelement">
+		<h2>Übershrift</h2>
+		<p>Diese div-Container wird individuell gestaltet</p>
+	</div>
+</main>
+
+
+</BODY>
+
+</HTML>

@@ -1,0 +1,82 @@
+<style type="text/css">
+
+
+html {
+	background: transparent!important
+}
+
+body {
+	margin: 10px auto;
+	max-width: 60em;
+	font-family: sans-serif;
+	color: #333333;
+}
+
+h1,
+main,
+svg {
+	border-radius: 0px 0.5em 0.5em;
+	border: 1px solid;
+	padding: 10px;
+	margin: 10px;
+}
+
+h1 {
+	background: #F1F3F4 url("http://wiki.selfhtml.org/images/9/99/Selfhtml-beispiel-logo.png") 10px 5px no-repeat;
+	border-color: #d5d5d5;
+	padding-left: 200px;
+}
+
+main {
+	display: block;
+	/* für IE */
+	
+	background: #c4ced3;
+	border-color: #8a9da8;
+	min-height: 400px;
+}
+
+div {
+	padding: 1em;
+	margin: 2em auto;
+	width: 20em;
+	height: 10em;
+	background: #f1f3f4;
+}
+
+.heis {
+	border-left: 5px solid #c32e04;
+}
+.heis h2:before {
+	color: #c32e04;
+	content: 'Beachten: ';
+}
+
+.hinweis {
+	border-left: 5px solid #c32e04;
+}
+
+.hinweis h2:before {
+	color: #c32e04;
+	content: 'Beachten: ';
+}
+
+.empfehlung {
+	border-left: 5px solid #5a9900;
+}
+
+.empfehlung h2:before {
+	color: #5a9900;
+	content: 'Empfehlung: ';
+}
+
+.aside {
+	float: right;
+	border-left: 5px solid #3983ab;
+	background: #fffbf0;
+}
+
+.aside h2:before {
+	color: #3983ab;
+	content: 'weiterführende Links: ';
+}
